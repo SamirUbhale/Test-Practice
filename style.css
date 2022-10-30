@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 20px;
+    background-color:#F3F3F3;
+    box-sizing:border-box;
+    padding:0;
+} 
+  /* nav-bar */
+  .nav-title{
+    position:relative;
+    padding: 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 700px;
+    list-style:none;
+  }
+  .logo{
+   font-size: 180%;
+  }
+  .nav-links ul{
+    display:inline-block;
+    list-style: none;
+    text-decoration-color:black;
+    gap: 31.9px;
+    font-weight: 500;
+    size: 21px;
+    line-height: 25.2px;
+    letter-spacing: -3%;  
+  }
+  .nav-links li a{
+    text-decoration: solid;
+    color:black ;
+    margin-left:700px;
+    display:flex;
+    justify-items:flex-end;
+  }
+  /* title */
+  .infopage{
+    padding: 8%;
+  }
+  .info{
+    display: flex;
+    justify-content: space-between;
+    margin-right:30px;
+  }
+  .name{
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: #181717;
+    font-size: 25px;
+  }
+  .about{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 000;
+    letter-spacing: -0.03em;
+    color: #606060;
+    position: absolute;
+    width: 580px;
+    height: 111px;
+    left: calc(50% - 580px/2 + 206px);
+    top: 450px;
+    font-size: 32px;
+  }
+  .arrow{
+    position: absolute;
+    width: 33.61px;
+    height: 38.04px;
+    top: 605.18px;
+  }
+  /* project */ 
+  .row{
+  display: flex;
+  padding: 8%;
+  font-family: 'Inter';
+  font-style: normal;
+  }
+  .titleimage{
+    font-weight:100px;
+    font-size: 20px;
+    line-height:520.2%;
+    margin-top:300px;
+  }
+  .project-heading{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    }
+  .project-sub{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;  
+    color: #181717;
+    letter-spacing: -0.03em;
+  }
+  .project-info{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 121.5%;
+  letter-spacing: -0.03em;
+  color: #606060;
+  } 
+  .link a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 121.5%;
+  color: black;
+  letter-spacing: -0.03em;
+  }
+  .exp a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.5%;
+    color:#606060;
+    letter-spacing: -0.03em;
+  }
+  /* footer */
+  .footer{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    /* or 25px */
+
+    letter-spacing: -0.03em;
+
+    /* Main Black */
+
+    color: #181717;
+    
+  }
